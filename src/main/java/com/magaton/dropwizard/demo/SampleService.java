@@ -17,12 +17,10 @@ public class SampleService extends Service<SampleConfiguration> {
 
     @Override
     public void initialize(Bootstrap<SampleConfiguration> sampleConfigurationBootstrap) {
-        //To change body of implemented methods use File | Settings | File Templates.
     }
 
     @Override
     public void run(SampleConfiguration sampleConfiguration, Environment environment) throws Exception {
-        //To change body of implemented methods use File | Settings | File Templates.
         environment.addResource(new HelloWorldResource());
     }
 }
